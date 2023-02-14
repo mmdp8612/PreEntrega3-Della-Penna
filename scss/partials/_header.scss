@@ -17,7 +17,10 @@
     }
 }
 
-.header__links{ 
+.header__links{
+    
+    margin-bottom:0px !important;
+
     li { 
         display:inline-block;
         a{
@@ -44,6 +47,7 @@
     background-color: $principal;
     color: $blanco;
     ul{ 
+        padding-left:0px !important;
         list-style: none;
         li{
             padding:10px;
