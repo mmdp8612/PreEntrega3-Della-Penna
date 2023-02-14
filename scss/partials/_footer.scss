@@ -4,7 +4,7 @@
     display:flex;
     justify-content: space-between;
     align-items: center;
-    background-color:#444;
+    background-color: $gris-oscuro;
     padding:20px 20px;
 }
 
@@ -24,7 +24,7 @@
 .footer__social {
     li {
         a{
-            color:#F36116;
+            color: $principal;
         }
     }
 }
@@ -33,7 +33,7 @@
     li {
         a{
             &:hover {
-                color:#000;
+                color: $negro;
             }
         }
     }

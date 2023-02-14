@@ -15,50 +15,48 @@ body{
 }
 
 .bg-container {
-    background-color: #ffffff;
+    background-color: $blanco;
 }
 
 .division{
     margin:20px 0;
 }
 
-.form-group{
-    margin:10px 0;
-}
-
 .form-group {
+    
+    margin:10px 0;
+    
     label{
         font-size:14px;
         display:block;
     }
 }
 
-.btn {
+.btn{
+
     border:0;
-    background-color:#F36116;
+    background-color: $principal;
     color:#fff;
     width:100%;
     padding:10px 0;
     cursor:pointer;
-}
 
-.btn{
     &:hover {
-        background-color: #000;
+        background-color: $negro;
         color:#fff;
     }
 }
 
 
 .btn-link {
-    color:#F36116;
+    color: $principal;
     font-weight: bold;
     text-decoration: none;
     text-transform: uppercase;
 }
 
 .form-control {
-    border:1px solid #ccc;
+    border:1px solid $gris-claro;
     padding:10px 15px;
     width:100%;
 }
